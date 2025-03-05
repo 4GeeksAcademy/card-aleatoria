@@ -48,10 +48,3 @@ apply - size - addEventListener("click", _ => {
   location.apply
 })
 
-let newWidth = document.getElementById("width")
-let newHeight = document.getElementById("height")
-
-if (newWidth && newHeight) {
-  cardElement.style.width = newWidth + "px";
-  cardElement.style.height = newHeight + "px";
-}
