@@ -33,7 +33,7 @@ window.onload = function () {
       document.getElementById("card-number").style.color = "Black";
     }
   }
-  generateCard(); // Genera la primera carta al cargar
+  generateCard();
   setInterval(generateCard, 5000);
   console.log("Hello Rigo from the console!");
 };
@@ -43,8 +43,5 @@ refresh.addEventListener('click', _ => {
   location.reload();
 })
 
-let size = document.getElementById("apply-size");
-apply - size - addEventListener("click", _ => {
-  location.apply
-})
+
 
